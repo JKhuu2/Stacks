@@ -1,0 +1,14 @@
+Jennifer Khuu, jtk2eh, 2/6/20
+File difficulties.txt
+
+I wasn't sure how I would access the list methods from the stack.cpp file since I didn't know if I needed to use the "->" or the ".". I first tried "." and it gave me an error suggesting that I use "->" instead, so I changed it and it compiled.
+
+At first, in the stack class, I declared a private variable called "stack", which was a list pointer, and when I tried to compile it, I got an error that said I couldn't use that name because it was the same name as the class so I had to change it to "stk" instead.
+
+I tried to test the subtraction method by using the substraction.txt file and my output was 0 instead of 21. When I tried going step by step, I found out that in one of the steps, it said that the stack was empty even though it wasn't, so I went back to my stack.cpp file and tried implementing a count variable. When I did, it didn't say it was empty at that step anymore.
+
+The subtraction methods works when there are only two elements in the stack, but when there's three, it doesn't work. I then looked at my subtract and remove method and I found out that when it's removing, it's searching from the head to tail instead of tail to head like how I wanted it to be. Therefore, I made an insertAtHead() method and changed everything so that the top is the first element in the list and it worked!
+
+
+
+ 

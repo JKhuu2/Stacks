@@ -1,0 +1,4 @@
+Jennifer Khuu, jtk2eh, 2/4/20
+File unix.questions.txt
+
+This doesn't really regard Unix, but for the GNU Emacs 25 application on the Virtual Box, is there any way we can rename the windows so that it's easier to see which window corresponds with which file? Right now, they all have the same name by default and I don't know how to rename them.
